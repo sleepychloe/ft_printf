@@ -41,3 +41,5 @@ fclean: clean
 	$(RM) $(NAME)
 
 re: clean all
+
+.PHONY: all clean fclean re
